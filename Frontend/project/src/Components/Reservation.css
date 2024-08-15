@@ -1,0 +1,57 @@
+.booking-form-container {
+    width: 600px;
+    margin-left: 400px;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0 0 20px rgb(245, 242, 242);
+    color:white;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+#res
+{
+    padding: 20px;
+    background-color: black;
+}
+.form-group {
+  
+    margin-bottom: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+#bkres {
+    width: 30%;
+    padding: 15px;
+    background-color:green;
+    color:bisque;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+
+button:hover {
+    background-color:rgb(245, 157, 157);
+}
+
+.restxt{
+    cursor:text;
+    margin-right: 100px;
+    padding: 20px 110px;
+}

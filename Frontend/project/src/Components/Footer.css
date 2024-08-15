@@ -1,0 +1,89 @@
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+
+  }
+  
+  
+  .contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: beige;
+    color: black; 
+  }
+  
+  .contact-item {
+    flex: 1;
+    margin: 39px;
+    text-align: left;
+  }
+  
+  .contact-item h2 {
+    margin-bottom: 10px;
+    color: #703807;
+    text-align: left;
+  }
+  
+  .contact-item ul {
+    list-style-type: none;
+    padding: 10px;
+  }
+  
+  .contact-item ul li {
+    margin: 10px 0;
+    text-align: left;
+  }
+  
+  .contact-item .social {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .contact-item .social a {
+    color: #ecf0f1;
+    text-decoration: none;
+  }
+  
+  .contact-item input[type="email"] {
+    padding: 10px;
+    margin: 10px 0;
+    width: calc(100% - 22px);
+  }
+  
+  .contact-item button {
+    padding: 10px 20px;
+    background-color: #84450d;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .contact-item button:hover {
+    background-color: #d35400;
+  }
+  
+  footer {
+    background-color:#b87a51;
+    color: #ecf0f1;
+    padding: 10px;
+    text-align: center;
+  }
+  .map-container {
+  margin-top: 35px;
+  text-align: center;
+}
+
+.map-container h2 {
+ 
+  color: #703807;
+  padding-right: 100px;
+}
+
+.map-container iframe {
+  width: 100%;
+  max-width: 600px; /* Adjust to fit your design */
+  height: 300px; /* Adjust height as needed */
+  padding-right: 100px;
+}
